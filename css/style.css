@@ -1,0 +1,234 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  letter-spacing: 0.05em;
+}
+:root {
+  --primary-text-color: #212112;
+  --tilt-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --background-footer: #2f303a;
+  --footer-nav: rgba(255, 255, 255, 60%);
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+:visited {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.192;
+
+
+  letter-spacing: 0.03em;
+}
+.icon-blue {
+  color: var(--accent-color);
+}
+.icon-bk {
+  color: var(--primary-text-color);
+}
+.icon-wh {
+  color: var(--background-color);
+}
+.site-studio {
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.site-navi {
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.site-navi:hover,
+.site-navi:focus {
+  color: var(--accent-color);
+}
+
+.points-heading {
+  font-weight: 700;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.points-title {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+  color: var(--tilt-color);
+}
+
+.occupation-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tilt-color);
+}
+
+.addres-title {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--tilt-color);
+}
+.addres-title:hover,
+.addres-title:focus {
+  color: var(--accent-color);
+}
+
+.hero-section {
+  background-color: var(--background-footer);
+}
+.hero-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.hero-button-bgk {
+  background-color: var(--accent-color);
+  
+  width: 200px;
+  height: 50px;
+  left: 774px;
+  top: 465px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+}
+
+
+.site-portfolio {
+  color: var(--accent-color);
+}
+
+.button-portfolio {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+.project-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.text-prophecy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+ 
+  letter-spacing: 0.03em;
+  color: var(--tilt-color);
+}
+
+.footer-list {
+  background-color: var(--background-footer);
+}
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}
+.footer-nav {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--footer-nav);
+}
